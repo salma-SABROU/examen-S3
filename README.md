@@ -152,32 +152,20 @@ La configuration de Keycloak :
 On le test avec POSTMAN :
 ![image](https://github.com/salma-SABROU/examen-S3/assets/129564311/f9c3bf41-3789-4ca4-9038-b321f31c8c72)
 
-Configuration de backend :
+#### Configuration de backend :
+- ajoute de la dépendance suivante
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-oauth2-resource-server -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
+			<version>3.2.1</version>
+		</dependency>
 
-Configuration de frontend :
+- ajoute la configuration :
+  ![image](https://github.com/salma-SABROU/examen-S3/assets/129564311/f548f240-d1a8-4204-9759-142608b0128d)
 
+  ![image](https://github.com/salma-SABROU/examen-S3/assets/129564311/a079e1fc-87ed-4183-81d0-d671125a95c7)
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Conclusion :
 
 En conclusion, ce projet a été une exploration enrichissante et stimulante dans le domaine des systèmes parallèles et distribués. À travers l'utilisation habile de Spring Boot, Spring Security, Angular et Keycloak, nous avons réussi à créer une application qui incarne les principes fondamentaux de la conception orientée vers la distribution, la scalabilité et la sécurité.
 
