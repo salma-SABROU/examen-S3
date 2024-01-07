@@ -153,7 +153,7 @@ On le test avec POSTMAN :
 ![image](https://github.com/salma-SABROU/examen-S3/assets/129564311/f9c3bf41-3789-4ca4-9038-b321f31c8c72)
 
 #### Configuration de backend :
-- ajoute de la dépendance suivante
+- ajout de la dépendance suivante
 <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-oauth2-resource-server -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -161,7 +161,7 @@ On le test avec POSTMAN :
 			<version>3.2.1</version>
 		</dependency>
 
-- ajoute la configuration :
+- ajout la configuration :
   ![image](https://github.com/salma-SABROU/examen-S3/assets/129564311/f548f240-d1a8-4204-9759-142608b0128d)
 
   ![image](https://github.com/salma-SABROU/examen-S3/assets/129564311/a079e1fc-87ed-4183-81d0-d671125a95c7)
